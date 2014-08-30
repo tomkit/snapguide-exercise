@@ -1,0 +1,25 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="static/css/snapguide.css" />
+</head>
+<body>
+<div class="container"> 
+    <div class="innerContainer" id="guide-1"> 
+	    <div class="small" id="topRow">
+	        <btn class="diamond item" id="leftArrow">Previous</btn>
+			<img  src="{{images[0]['url_small']}}" data-medium="{{images[0]['url_medium']}}" data-original="{{images[0]['url']}}">
+			<img  src="{{images[1]['url_small']}}" data-medium="{{images[1]['url_medium']}}" data-original="{{images[1]['url']}}">
+			<img  src="{{images[2]['url_small']}}" data-medium="{{images[2]['url_medium']}}" data-original="{{images[2]['url']}}">
+			<img  src="{{images[3]['url_small']}}" data-medium="{{images[3]['url_medium']}}" data-original="{{images[3]['url']}}">
+			<img  src="{{images[4]['url_small']}}" data-medium="{{images[4]['url_medium']}}" data-original="{{images[4]['url']}}">
+			<btn class="diamond item" id="rightArrow">Next</btn>		
+		</div>
+		<div class="large" id="bottomRow">
+		    <a href="{{images[0]['url']}}"><img src="{{images[0]['url_medium']}}"></a>
+		</div>
+	</div>
+</div>
+
+<script src="static/js/snapguide.js"></script>
+</body>
+</html>
